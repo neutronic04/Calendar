@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: "Raleway", sans-serif;
+}
+
+.calendar {
+  width: 60vmax;
+  height: 35vmax;
+  background-color: #333;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-1 {
+  width: 70%;
+}
+
+.section-2 {
+  width: 33%;
+  background-color: #20969d;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2vmax;
+}
+
+.calendar-days {
+  width: 100%;
+  padding: 2vmax;
+}
+
+.calendar-days tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.calendar-days tr th {
+  color: #20969d;
+}
+
+.calendar-days tr .day-in-month-calendar {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.calendar-days tr .current-day {
+  background-color: #20969d;
+  border-radius: 50%;
+}
+
+.calendar-days tr th,
+.calendar-days tr .day-in-month-calendar {
+  width: 5vmax;
+  height: 5vmax;
+  text-align: center;
+  font-size: 3vmax;
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#day-in-week,
+#month-and-year {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#day-in-week {
+  font-size: 3vmax;
+}
+
+#day-in-month {
+  font-size: 6vmax;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#month-and-year {
+  font-size: 2vmax;
+  font-weight: 200;
+  margin-top: 2vmax;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#change-theme {
+  width: 2.5vmax;
+  height: 2.5vmax;
+}
+
+#add-event {
+  width: 3.5vmax;
+  height: 3.5vmax;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet" />
+        <title>Calendar</title>
+    </head>
+    <body>
+        <div class="calendar">
+            <div class="section-1">
+                <table class="calendar-days">
+                    <tr>
+                        <th>M</th>
+                        <th>T</th>
+                        <th>W</th>
+                        <th>T</th>
+                        <th>F</th>
+                        <th>S</th>
+                        <th>S</th>
+                    </tr>
+                    <tr>
+                        <td class="day-in-month-calendar"></td>
+                        <td class="day-in-month-calendar">1</td>
+                        <td class="day-in-month-calendar">2</td>
+                        <td class="day-in-month-calendar">3</td>
+                        <td class="day-in-month-calendar">4</td>
+                        <td class="day-in-month-calendar">5</td>
+                        <td class="day-in-month-calendar">6</td>
+                    </tr>
+                    <tr>
+                        <td class="day-in-month-calendar">7</td>
+                        <td class="day-in-month-calendar">8</td>
+                        <td class="day-in-month-calendar">9</td>
+                        <td class="day-in-month-calendar">10</td>
+                        <td class="day-in-month-calendar">11</td>
+                        <td class="day-in-month-calendar">12</td>
+                        <td class="day-in-month-calendar">13</td>
+                    </tr>
+                    <tr>
+                        <td class="day-in-month-calendar">14</td>
+                        <td class="day-in-month-calendar">15</td>
+                        <td class="day-in-month-calendar">16</td>
+                        <td class="day-in-month-calendar">17</td>
+                        <td class="day-in-month-calendar">18</td>
+                        <td class="day-in-month-calendar">19</td>
+                        <td class="day-in-month-calendar">20</td>
+                    </tr>
+                    <tr>
+                        <td class="day-in-month-calendar">21</td>
+                        <td class="day-in-month-calendar">22</td>
+                        <td class="day-in-month-calendar">23</td>
+                        <td class="day-in-month-calendar">24</td>
+                        <td class="day-in-month-calendar">25</td>
+                        <td class="day-in-month-calendar">26</td>
+                        <td class="day-in-month-calendar">27</td>
+                    </tr>
+                    <tr>
+                        <td class="day-in-month-calendar">28</td>
+                        <td class="day-in-month-calendar"></td>
+                        <td class="day-in-month-calendar"></td>
+                        <td class="day-in-month-calendar"></td>
+                        <td class="day-in-month-calendar"></td>
+                        <td class="day-in-month-calendar"></td>
+                        <td class="day-in-month-calendar"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section-2">
+                <div class="col">
+                    <p id="day-in-week">Sunday</p>
+                    <p id="day-in-month">13</p>
+                    <p id="month-and-year">February 2022</p>
+                </div>
+                <div class="row">
+                    <img src="/images/Palette.svg" alt="Change theme" id="change-theme" class="icon-btn" />
+                    <img src="/images/Plus.svg" alt="Add event" id="add-event" class="icon-btn" />
+                </div>
+            </div>
+        </div>
+        <script src="/src/script.js"></script>
+    </body>
+</html>
